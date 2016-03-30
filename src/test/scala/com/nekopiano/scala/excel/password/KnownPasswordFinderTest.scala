@@ -24,8 +24,7 @@ object KnownPasswordFinderTest extends App {
   val encInfo = new EncryptionInfo(fileSystem)
   implicit val decryptor = Decryptor.getInstance(encInfo)
 
-  //val set = generatePassword(4)
-  val set = generatePassword(6)
+  val set = generatePassword(4)
   val patterns = set.size
   println("All the patterns are " + patterns)
 
