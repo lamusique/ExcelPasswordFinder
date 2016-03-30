@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import scala.io.Source
 
 /**
-  * Created by neko on 3/30/16.
+  * Created on 3/30/16.
   */
 object ExcelOpeningTest extends App {
 

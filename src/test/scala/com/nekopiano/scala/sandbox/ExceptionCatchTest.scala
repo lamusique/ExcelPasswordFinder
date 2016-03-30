@@ -3,7 +3,7 @@ package com.nekopiano.scala.sandbox
 import java.util.concurrent.BrokenBarrierException
 
 /**
-  * Created by neko on 3/30/16.
+  * Created on 3/30/16.
   */
 object ExceptionCatchTest extends App {
 

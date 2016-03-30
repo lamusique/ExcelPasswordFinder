@@ -1,7 +1,7 @@
 package com.nekopiano.scala.excel.password
 
 /**
-  * Created by neko on 3/30/16.
+  * Created on 3/30/16.
   */
 object PasswordGeneratorTest extends App {
 

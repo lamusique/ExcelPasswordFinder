@@ -7,7 +7,7 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 
 /**
-  * Created by neko on 3/30/16.
+  * Created on 3/30/16.
   */
 object KnownPasswordFinderTest extends App {
 
