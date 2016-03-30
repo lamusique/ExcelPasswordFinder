@@ -39,7 +39,7 @@ object ExcelOpeningTest extends App {
     val dataStream = decryptor.getDataStream(fileSystem)
     val wbEnc = new XSSFWorkbook(dataStream)
     // parse dataStream
-    val numberOfSheetsEnc = wb.getNumberOfSheets
+    val numberOfSheetsEnc = wbEnc.getNumberOfSheets
     println(numberOfSheetsEnc)
 
   } catch {

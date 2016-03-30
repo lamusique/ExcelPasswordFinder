@@ -17,8 +17,11 @@ object PasswordGeneratorTest extends App {
 
   def generate(size:Int) = {
     val set = 1 to size map {i=> minuscules}
-    val combo = set.flatten.combinations(size)
-    println(combo.mkString(","))
+    val combos = set.flatten.combinations(size)
+    val patterns = combos map (combo => {
+      combo.permutations
+    })
+    println(patterns.flatten.mkString(","))
 
   }
 
