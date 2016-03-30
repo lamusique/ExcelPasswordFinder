@@ -1,2 +1,2 @@
 # ExcelPasswordFinder
-Find the password of Excel by brute force.
+Find passwords of an Excel file by brute force in case you forget the passwords.
