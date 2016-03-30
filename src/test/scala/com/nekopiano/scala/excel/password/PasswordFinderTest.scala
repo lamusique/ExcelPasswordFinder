@@ -46,5 +46,7 @@ object PasswordFinderTest extends App {
     case gse: GeneralSecurityException => throw new RuntimeException("Unable to process encrypted document", gse)
   }
 
+  // Concurrent opening
+
 
 }
