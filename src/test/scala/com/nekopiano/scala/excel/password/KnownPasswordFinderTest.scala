@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook
 /**
   * Created by neko on 3/30/16.
   */
-object PasswordFinderTest extends App {
+object KnownPasswordFinderTest extends App {
 
   // 24 characters
   //val minuscules = ('a' to 'z').toSeq
