@@ -13,7 +13,7 @@ import scala.io.Source
 /**
   * Created by neko on 3/30/16.
   */
-object PasswordFinderTest extends App {
+object ExcelOpeningTest extends App {
 
   // A bare file
 
